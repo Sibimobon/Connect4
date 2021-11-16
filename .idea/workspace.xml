@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac8e3d89-e078-4c78-b01c-22cd5c03950f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Connect4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_minimax/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_minimax/minimax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_random/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_random/random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_minimax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zrzhJP3dDkMOG1qMJeLna5zqZU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Simon\Desktop\Projekte\Programmierpraktikum\Connect4\agents" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minimax.test_heuristic_human_start" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimax.test_heuristic_human_start&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minimax.test_heuristic_human_start2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimax.test_heuristic_human_start2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minimax.test_heuristic_human_start2_dumb" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimax.test_heuristic_human_start2_dumb&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minimax.test_heuristic_human_start2_smart" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimax.test_heuristic_human_start2_smart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_minimax.test_max_pruning" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_minimax.test_max_pruning&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_minimax.test_heuristic_human_start2_dumb" />
+        <item itemvalue="Python tests.pytest for test_minimax.test_heuristic_human_start2_smart" />
+        <item itemvalue="Python tests.pytest for test_minimax.test_heuristic_human_start2" />
+        <item itemvalue="Python tests.pytest for test_minimax.test_heuristic_human_start" />
+        <item itemvalue="Python tests.pytest for test_minimax.test_max_pruning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac8e3d89-e078-4c78-b01c-22cd5c03950f" name="Default Changelist" comment="" />
+      <created>1634921112073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634921112073</updated>
+      <workItem from="1634921113351" duration="1622000" />
+      <workItem from="1635193726167" duration="37793000" />
+      <workItem from="1636220396233" duration="23965000" />
+      <workItem from="1636640400348" duration="131000" />
+      <workItem from="1636705861932" duration="34404000" />
+      <workItem from="1636971214119" duration="3010000" />
+      <workItem from="1637057072071" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635194716397">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1635194716397" />
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1634921202854" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1637057094335">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1637057094335" />
+    <state width="1237" height="492" key="GridCell.Tab.0.bottom" timestamp="1636981807500">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="492" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1636981807500" />
+    <state width="1237" height="492" key="GridCell.Tab.0.center" timestamp="1636981807500">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="492" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1636981807500" />
+    <state width="1237" height="492" key="GridCell.Tab.0.left" timestamp="1636981807500">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="492" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1636981807500" />
+    <state width="1237" height="492" key="GridCell.Tab.0.right" timestamp="1636981807500">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="492" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1636981807500" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1636920002140">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1636920002140" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1636920002139">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1636920002139" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1636920002139">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1636920002139" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1636920002139">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1636920002139" />
+    <state x="142" y="3" key="SettingsEditor" timestamp="1635194772803">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1635194772803" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1637057077753">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1635193727715" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1637057077753" />
+    <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636286692842">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1636286692842" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_vertical.coverage" NAME="pytest for test_minimax.test_new_vertical Coverage Results" MODIFIED="1636716882747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_precision_pretty_print_board.coverage" NAME="pytest for test_common.test_precision_pretty_print_board Coverage Results" MODIFIED="1636031375158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_TLBR_YX_true.coverage" NAME="pytest for test_common.test_diagonal_check_TLBR_YX_true Coverage Results" MODIFIED="1636288629948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_false.coverage" NAME="pytest for test_common.test_connected_four_false Coverage Results" MODIFIED="1636032935854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_empty_pretty_print_board.coverage" NAME="pytest for test_common.test_empty_pretty_print_board Coverage Results" MODIFIED="1636031208625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_iterate_window_pos.coverage" NAME="pytest for test_minimax.test_iterate_window_pos Coverage Results" MODIFIED="1636714944318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_true.coverage" NAME="pytest for test_common.test_connected_four_true Coverage Results" MODIFIED="1636287087380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_check_horizontal.coverage" NAME="pytest for test_minimax.test_check_horizontal Coverage Results" MODIFIED="1636369345814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_end_state_still_playing.coverage" NAME="pytest for test_common.test_end_state_still_playing Coverage Results" MODIFIED="1636289722350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_human_start2_dumb.coverage" NAME="pytest for test_minimax.test_heuristic_human_start2_dumb Coverage Results" MODIFIED="1636757338828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BL_TR_false.coverage" NAME="pytest for test_common.test_connected_four_BL_TR_false Coverage Results" MODIFIED="1636288569443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_iterate_window_neg.coverage" NAME="pytest for test_minimax.test_iterate_window_neg Coverage Results" MODIFIED="1636715945925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_heuristic_compare.coverage" NAME="pytest for test_minimax.test_new_heuristic_compare Coverage Results" MODIFIED="1636736267414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_human_start2.coverage" NAME="pytest for test_minimax.test_heuristic_human_start2 Coverage Results" MODIFIED="1636757106935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_BLTR_true.coverage" NAME="pytest for test_common.test_diagonal_check_BLTR_true Coverage Results" MODIFIED="1636288625328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_TLBR_true.coverage" NAME="pytest for test_common.test_diagonal_check_TLBR_true Coverage Results" MODIFIED="1636287899263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_human_start.coverage" NAME="pytest for test_minimax.test_heuristic_human_start Coverage Results" MODIFIED="1636756944073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_initialize_game_state.coverage" NAME="pytest for test_common.test_initialize_game_state Coverage Results" MODIFIED="1636031038036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_BL_TR_false.coverage" NAME="pytest for test_common.test_BL_TR_false Coverage Results" MODIFIED="1636288652907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_TLBR_XY_true.coverage" NAME="pytest for test_common.test_TLBR_XY_true Coverage Results" MODIFIED="1636288643693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_human_start2_smart.coverage" NAME="pytest for test_minimax.test_heuristic_human_start2_smart Coverage Results" MODIFIED="1636757316681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_heuristic.coverage" NAME="pytest for test_minimax.test_new_heuristic Coverage Results" MODIFIED="1636724452045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_true.coverage" NAME="pytest for test_common.test_diagonal_check_true Coverage Results" MODIFIED="1636287386096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_eval_window_none.coverage" NAME="pytest for test_minimax.test_eval_window_none Coverage Results" MODIFIED="1636714359749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_iterate_window_none.coverage" NAME="pytest for test_minimax.test_iterate_window_none Coverage Results" MODIFIED="1636714820947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_precision_new_pretty_print_board.coverage" NAME="pytest for test_common.test_precision_new_pretty_print_board Coverage Results" MODIFIED="1635690036650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BR_TL_false.coverage" NAME="pytest for test_common.test_connected_four_BR_TL_false Coverage Results" MODIFIED="1636288619979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_drop_piece.coverage" NAME="pytest for test_common.test_drop_piece Coverage Results" MODIFIED="1636738063114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_check_diagonal_neg.coverage" NAME="pytest for test_minimax.test_new_check_diagonal_neg Coverage Results" MODIFIED="1636724217845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$main.coverage" NAME="main Coverage Results" MODIFIED="1636974002470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_invaltid_piece_pretty_print_board.coverage" NAME="pytest for test_common.test_invaltid_piece_pretty_print_board Coverage Results" MODIFIED="1636031501157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_check_horizontal_2.coverage" NAME="pytest for test_minimax.test_check_horizontal_2 Coverage Results" MODIFIED="1636369430224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_output_pretty_print_board.coverage" NAME="pytest for test_common.test_output_pretty_print_board Coverage Results" MODIFIED="1636031180542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_row_false.coverage" NAME="pytest for test_common.test_connected_four_row_false Coverage Results" MODIFIED="1636044220602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_check_diagonal_pos.coverage" NAME="pytest for test_minimax.test_new_check_diagonal_pos Coverage Results" MODIFIED="1636724057854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_eval_window_pos.coverage" NAME="pytest for test_minimax.test_eval_window_pos Coverage Results" MODIFIED="1636714418537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_eval_window_neg.coverage" NAME="pytest for test_minimax.test_eval_window_neg Coverage Results" MODIFIED="1636714767060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_row_true.coverage" NAME="pytest for test_common.test_connected_four_row_true Coverage Results" MODIFIED="1636287102504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BL_TR_true.coverage" NAME="pytest for test_common.test_connected_four_BL_TR_true Coverage Results" MODIFIED="1636288554181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_heuristic_practical.coverage" NAME="pytest for test_minimax.test_new_heuristic_practical Coverage Results" MODIFIED="1636737614334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_BL_TR_true.coverage" NAME="pytest for test_common.test_BL_TR_true Coverage Results" MODIFIED="1636288648101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_string_to_board.coverage" NAME="pytest for test_common.test_string_to_board Coverage Results" MODIFIED="1636294201019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BR_TL_true.coverage" NAME="pytest for test_common.test_connected_four_BR_TL_true Coverage Results" MODIFIED="1636288592097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_end_state_win.coverage" NAME="pytest for test_common.test_end_state_win Coverage Results" MODIFIED="1636289410914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_TLBR_YX_true.coverage" NAME="pytest for test_common.test_TLBR_YX_true Coverage Results" MODIFIED="1636288634585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_horizontal.coverage" NAME="pytest for test_minimax.test_new_horizontal Coverage Results" MODIFIED="1636716479404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_neg.coverage" NAME="pytest for test_common.test_diagonal_neg Coverage Results" MODIFIED="1636732862902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_player2_win.coverage" NAME="pytest for test_minimax.test_heuristic_player2_win Coverage Results" MODIFIED="1636748013373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_end_state_draw.coverage" NAME="pytest for test_common.test_end_state_draw Coverage Results" MODIFIED="1636289307689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_pretty_print_board.coverage" NAME="pytest for test_common.test_pretty_print_board Coverage Results" MODIFIED="1635688772466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_TLBR_XY_true.coverage" NAME="pytest for test_common.test_diagonal_check_TLBR_XY_true Coverage Results" MODIFIED="1636288639086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$common.coverage" NAME="common Coverage Results" MODIFIED="1636305615991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agents" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_max_pruning.coverage" NAME="pytest for test_minimax.test_max_pruning Coverage Results" MODIFIED="1636748747415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_player1_win.coverage" NAME="pytest for test_minimax.test_heuristic_player1_win Coverage Results" MODIFIED="1636747969150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_dimensions_print_board.coverage" NAME="pytest for test_common.test_dimensions_print_board Coverage Results" MODIFIED="1635691244762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_dimensions_pretty_print_board.coverage" NAME="pytest for test_common.test_dimensions_pretty_print_board Coverage Results" MODIFIED="1636031496028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>

@@ -3,6 +3,7 @@ from typing import Optional, Callable
 from agents.common import PlayerAction, BoardPiece, SavedState, GenMove
 from agents.agent_random import generate_move
 from agents.agent_minimax import minimax_move
+from agents.agent_minimax import negamax_move
 
 
 def user_move(board: np.ndarray, _player: BoardPiece, saved_state: Optional[SavedState]):
@@ -73,3 +74,4 @@ if __name__ == "__main__":
     #human_vs_agent(generate_move)
 
     human_vs_agent(minimax_move)
+    #human_vs_agent(negamax_move)

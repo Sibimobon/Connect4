@@ -1,6 +1,6 @@
 from agents.agent_minimax.minimax import heuristic, check_horizontal, check_vertical, check_diagonal_pos, check_diagonal_neg, calculate_streak
 import numpy as np
-from agents.common import NO_PLAYER, BoardPiece, PLAYER2, PLAYER1
+from agents.common import NO_PLAYER, BoardPiece, PLAYER2, PLAYER1, string_to_board
 
 def test_check_horizontal_empty():
     initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
@@ -248,8 +248,363 @@ def test_max_pruning():
     assert new_max(initialBoard, 3, 2) == float("-inf")
 
 
+def test_heuristic_dumb_move():
+    from agents.agent_minimax.minimax import new_heuristic
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 6] = PLAYER2
+    initialBoard[5, 5] = PLAYER1
+    initialBoard[4, 5] = PLAYER2
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[5, 2] = PLAYER1
+
+    assert new_heuristic(initialBoard, PLAYER1, 2) == float("inf")
+
+def test_heuristic_dumb_move2():
+    from agents.agent_minimax.minimax import new_heuristic
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[0, 2] = PLAYER1
+    initialBoard[1, 3] = PLAYER1
+    initialBoard[2, 4] = PLAYER1
+
+    assert new_heuristic(initialBoard, PLAYER1, 2) != float("inf")
+
+
+def test_heuristic_dumb_move3():
+    from agents.agent_minimax.minimax import new_heuristic
+    from agents.common import apply_player_action
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+
+    initialBoard[1, 3] = PLAYER1
+    initialBoard[2, 4] = PLAYER1
+
+    initialBoard[1, 2] = PLAYER2
+    initialBoard[2, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER2
+    initialBoard[0, 2] = PLAYER2
+
+    assert new_heuristic(initialBoard, PLAYER2, 2) == float("-inf")
+
+def test_heuristic_dumb_move4():
+    from agents.agent_minimax.minimax import new_heuristic
+    from agents.common import apply_player_action
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+
+    initialBoard[1, 3] = PLAYER1
+    initialBoard[2, 4] = PLAYER1
+
+    initialBoard[1, 2] = PLAYER2
+    initialBoard[2, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER2
+    initialBoard[0, 2] = PLAYER2
+
+    assert new_heuristic(initialBoard, PLAYER2, 2) == float("-inf")
+
+def test_heuristic_dumb_move5():
+    from agents.agent_minimax.minimax import new_heuristic
+    from agents.common import apply_player_action
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+
+    initialBoard[5, 5] = PLAYER1
+    initialBoard[4, 5] = PLAYER2
+
+    initialBoard[5, 4] = PLAYER2
+    initialBoard[4, 4] = PLAYER1
+    initialBoard[3, 4] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER1
+    initialBoard[2, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+    initialBoard[2, 2] = PLAYER1
+
+    assert new_heuristic(initialBoard, PLAYER1, 2) == float("inf")
+
+def test_generate_dumb_move1():
+    from agents.agent_minimax.minimax import generate_move_minimax
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 5] = PLAYER1
+
+    initialBoard[5, 4] = PLAYER2
+    initialBoard[4, 4] = PLAYER1
+    initialBoard[3, 4] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER1
+    initialBoard[2, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+
+    print(initialBoard)
+
+    assert generate_move_minimax(initialBoard, PLAYER2, None) == (2, None)
 
 
 
+def test_generate_dumb_move2():
+    from agents.agent_minimax.minimax import generate_move_minimax
 
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+
+    initialBoard[1, 3] = PLAYER1
+    initialBoard[2, 4] = PLAYER1
+
+
+    initialBoard[1, 2] = PLAYER2
+    initialBoard[2, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[5, 2] = PLAYER2
+
+
+    assert generate_move_minimax(initialBoard, PLAYER1, None) == (2, None)
+
+
+def test_generate_dumb_move3():
+    from agents.agent_minimax.minimax import generate_move_minimax
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+
+    initialBoard[5, 6] = PLAYER2
+    initialBoard[4, 6] = PLAYER2
+    initialBoard[3, 6] = PLAYER1
+    initialBoard[2, 6] = PLAYER2
+
+    initialBoard[5, 5] = PLAYER2
+    initialBoard[4, 5] = PLAYER1
+    initialBoard[3, 5] = PLAYER1
+    initialBoard[2, 5] = PLAYER2
+
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[4, 4] = PLAYER1
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+
+    initialBoard[5, 2] = PLAYER1
+
+    initialBoard[5, 1] = PLAYER2
+
+    initialBoard[5, 0] = PLAYER2
+
+    assert generate_move_minimax(initialBoard, PLAYER2, None) == (2, None)
+
+
+def test_heuristic_4():
+    from agents.agent_minimax.minimax import new_heuristic
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[4, 4] = PLAYER2
+    initialBoard[3, 4] = PLAYER2
+    initialBoard[2, 4] = PLAYER2
+
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+
+    initialBoard[5, 1] = PLAYER1
+    initialBoard[4, 1] = PLAYER1
+    initialBoard[3, 1] = PLAYER1
+
+    initialBoard[5, 0] = PLAYER2
+
+    print(initialBoard)
+
+    assert new_heuristic(initialBoard, PLAYER2, 4) != float('-inf')
+
+def test_heuristic_5():
+    from agents.agent_minimax.minimax import new_heuristic
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[4, 4] = PLAYER2
+    initialBoard[3, 4] = PLAYER2
+    initialBoard[2, 4] = PLAYER2
+
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+
+    initialBoard[5, 1] = PLAYER1
+    initialBoard[4, 1] = PLAYER1
+    initialBoard[3, 1] = PLAYER1
+    initialBoard[2, 1] = PLAYER1
+
+
+    initialBoard[5, 0] = PLAYER2
+
+    print(initialBoard)
+
+    assert new_heuristic(initialBoard, PLAYER1, 1) == float('inf')
+
+def test_min_depth_0():
+    from agents.agent_minimax.minimax import new_min
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[4, 4] = PLAYER2
+    initialBoard[3, 4] = PLAYER2
+    initialBoard[2, 4] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+
+    initialBoard[5, 1] = PLAYER1
+    initialBoard[4, 1] = PLAYER1
+    initialBoard[3, 1] = PLAYER1
+
+
+    initialBoard[5, 0] = PLAYER2
+
+    print(initialBoard)
+
+    assert new_min(initialBoard, 0, 1, float('-inf'), float('inf')) == float('inf')
+
+
+def test_max_depth_1():
+    from agents.agent_minimax.minimax import new_max
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[4, 4] = PLAYER2
+    initialBoard[3, 4] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+
+    initialBoard[5, 1] = PLAYER1
+    initialBoard[4, 1] = PLAYER1
+    initialBoard[3, 1] = PLAYER1
+
+
+    initialBoard[5, 0] = PLAYER2
+
+    print(initialBoard)
+
+    assert new_max(initialBoard, 1, 4, float('-inf'), float('inf')) == float('inf')
+
+def test_generate_dumb_move4():
+    from agents.agent_minimax.minimax import generate_move_minimax
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 4] = PLAYER1
+    initialBoard[4, 4] = PLAYER2
+    initialBoard[3, 4] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER2
+
+    initialBoard[5, 2] = PLAYER2
+    initialBoard[4, 2] = PLAYER2
+    initialBoard[3, 2] = PLAYER1
+
+    initialBoard[5, 1] = PLAYER1
+    initialBoard[4, 1] = PLAYER1
+    initialBoard[3, 1] = PLAYER1
+
+    initialBoard[5, 0] = PLAYER2
+
+    print(initialBoard)
+
+    assert generate_move_minimax(initialBoard, PLAYER2, None) == (1, None)
+
+#Test for scenario in which an immediate win should be blocked
+def test_generate_move_block_win():
+    from agents.agent_minimax.minimax import generate_move_minimax
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 6] = PLAYER2
+
+    initialBoard[5, 5] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER1
+
+    print(initialBoard)
+
+    assert generate_move_minimax(initialBoard, PLAYER2, None) == (3, None)
+
+
+def test_new_max_block_win():
+    #for depth 1
+    from agents.agent_minimax.minimax import new_max
+
+    initialBoard = np.ndarray(shape=(6, 7), dtype=BoardPiece)
+    initialBoard.fill(NO_PLAYER)
+
+    initialBoard[5, 6] = PLAYER2
+
+    initialBoard[5, 5] = PLAYER2
+
+    initialBoard[5, 3] = PLAYER1
+    initialBoard[4, 3] = PLAYER1
+    initialBoard[3, 3] = PLAYER1
+
+    print(initialBoard)
+
+    assert new_max(initialBoard, 1, 5, float('-inf'), float('inf')) == float('inf')
 

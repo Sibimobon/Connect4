@@ -1,6 +1,7 @@
 from enum import Enum
 from typing import Optional, Callable, Tuple
 import numpy as np
+#from numba import jit
 
 
 BoardPiece = np.int8  # The data type (dtype) of the board
@@ -12,6 +13,8 @@ BoardPiecePrint = str  # dtype for string representation of BoardPiece
 NO_PLAYER_PRINT = BoardPiecePrint(' ')
 PLAYER1_PRINT = BoardPiecePrint('X')
 PLAYER2_PRINT = BoardPiecePrint('O')
+
+CONNECT_N = 4
 
 PlayerAction = np.int8  # The column to be played
 
@@ -148,16 +151,31 @@ def connected_four(
     If desired, the last action taken (i.e. last column played) can be provided
     for potential speed optimisation.
     """
-    row = 0
-    for y in reversed(range(board.shape[0]-1)):
-        if board[y, last_action] != 0:
-            row = row + 1
+    if(last_action == None):
 
-    if check_connect_left_right(board, player, row) or check_connect_top_bottom(board, player, last_action) or check_connect_topleft_bottomright(board, player, last_action, row) or check_connect_topright_bottomleft(board, player, last_action, row):
-        return True
+        did_win = False
+        for x in range(board.shape[1]-1):
+            row = 0
+            for y in reversed(range(board.shape[0] - 1)):
+                temp = board[y, x]
+                if temp != 0:
+                    row = row + 1
+            if board[row, x] == player and not did_win:
+                did_win = connected_four(board, player, x)
+        return did_win
+    else:
+        row = 0
+        for y in reversed(range(board.shape[0]-1)):
+            temp = board[y, last_action]
+            if temp != 0:
+                row = row + 1
+
+        if check_connect_left_right(board, player, row) or check_connect_top_bottom(board, player, last_action) or check_connect_topleft_bottomright(board, player, last_action, row) or check_connect_topright_bottomleft(board, player, last_action, row):
+            return True
     return False
 
 #checks board for horizontal connections at height of last move
+#@jit(nopython=True)
 def check_connect_left_right(board: np.ndarray, player: BoardPiece, yPos: np.int8):
     counter = 0
     yPos = (yPos-5)*-1
@@ -173,6 +191,7 @@ def check_connect_left_right(board: np.ndarray, player: BoardPiece, yPos: np.int
     return False
 
 # checks board for vertical connections at xpos of last action
+#@jit(nopython=True)
 def check_connect_top_bottom(board: np.ndarray, player: BoardPiece, last_action: PlayerAction):
     counter = 0
     for y in range(board.shape[0]):
@@ -187,6 +206,7 @@ def check_connect_top_bottom(board: np.ndarray, player: BoardPiece, last_action:
     return False
 
 #holds the logic to check in diagonal diections from a point on the edge of the board indicated by xDir and yDir
+#@jit(nopython=True)
 def diagonal_check(board: np.ndarray, player: BoardPiece, xPos: np.int8, yPos: np.int8, xDir: np.int8, yDir: np.int8):
     counter = 0
     x = xPos
@@ -211,6 +231,7 @@ def diagonal_check(board: np.ndarray, player: BoardPiece, xPos: np.int8, yPos: n
     return False
 
 #checks the diagonals with a negative pitch for 4 pieces in a row
+#@jit(nopython=True)
 def check_connect_topright_bottomleft(board: np.ndarray, player: BoardPiece,  last_action: PlayerAction , yPos: np.int8):
 
     x = 0
@@ -227,6 +248,7 @@ def check_connect_topright_bottomleft(board: np.ndarray, player: BoardPiece,  la
         return False
 
 #checks the diagonals with a positive pitch for 4 pieces in a row
+#@jit(nopython=True)
 def check_connect_topleft_bottomright(board: np.ndarray, player: BoardPiece,  last_action: PlayerAction, yPos: np.int8):
 
     x = 0
@@ -256,7 +278,7 @@ def check_end_state(
     draw = True
 
 
-    for x in range(board.shape[1]-1):
+    for x in range(board.shape[1]):
         if board[0, x] == 0:
             draw = False
 
@@ -266,4 +288,5 @@ def check_end_state(
         return GameState.STILL_PLAYING
     else:
         return GameState.IS_DRAW
+
 

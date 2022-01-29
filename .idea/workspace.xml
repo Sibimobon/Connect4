@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8e3d89-e078-4c78-b01c-22cd5c03950f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_mcts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_mcts/mcts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_mcts_nn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/agent_mcts_nn/mcts_nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/train_nn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_mcts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Connect4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Connect4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agents/agent_minimax/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/agent_minimax/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agents/agent_minimax/minimax.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/agent_minimax/minimax.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agents/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_minimax.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_minimax.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +39,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="4549b346-d653-4041-9a21-4c0436929732">
+    <option name="files">
+      <option value="models\train_nn.ipynb" />
+    </option>
   </component>
   <component name="ProjectId" id="1zrzhJP3dDkMOG1qMJeLna5zqZU" />
   <component name="ProjectViewState">
@@ -48,11 +61,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/agents/agent_mcts_nn" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Simon\Desktop\Projekte\Programmierpraktikum\Connect4\agents\agent_mcts_nn" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Simon\Desktop\Projekte\Programmierpraktikum\Connect4\agents\agent_mcts_nn" />
+      <recent name="C:\Users\Simon\Desktop\Projekte\Programmierpraktikum\Connect4\agents\agent_mcts_nn\assets" />
+      <recent name="C:\Users\Simon\Desktop\Projekte\Programmierpraktikum\Connect4\models" />
       <recent name="C:\Users\Simon\Desktop\Projekte\Programmierpraktikum\Connect4\agents" />
     </key>
   </component>
@@ -64,7 +84,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python39\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Simon\anaconda3\envs\Connect4\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -79,29 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="timer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Connect4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/timer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_minimax.test_generate_dumb_move4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_mcts.test_board_loser" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Connect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +111,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimax.test_generate_dumb_move4&quot;" />
+      <option name="_new_target" value="&quot;test_mcts.test_board_loser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_minimax.test_max_depth_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_mcts.test_board_winner" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Connect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +127,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimax.test_max_depth_1&quot;" />
+      <option name="_new_target" value="&quot;test_mcts.test_board_winner&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_minimax.test_max_depth_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_mcts.test_random_game_result" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Connect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +143,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimax.test_max_depth_2&quot;" />
+      <option name="_new_target" value="&quot;test_mcts.test_random_game_result&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_minimax.test_min_depth_0" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_mcts.test_random_game_result2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Connect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,17 +159,41 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_minimax.test_min_depth_0&quot;" />
+      <option name="_new_target" value="&quot;test_mcts.test_random_game_result2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_mcts.test_random_game_result_loose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Connect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mcts.test_random_game_result_loose&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.pytest for test_mcts.test_board_loser" />
+      <item itemvalue="Python tests.pytest for test_mcts.test_board_winner" />
+      <item itemvalue="Python tests.pytest for test_mcts.test_random_game_result" />
+      <item itemvalue="Python tests.pytest for test_mcts.test_random_game_result2" />
+      <item itemvalue="Python tests.pytest for test_mcts.test_random_game_result_loose" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.timer" />
-        <item itemvalue="Python tests.pytest for test_minimax.test_min_depth_0" />
-        <item itemvalue="Python tests.pytest for test_minimax.test_max_depth_1" />
-        <item itemvalue="Python tests.pytest for test_minimax.test_max_depth_2" />
-        <item itemvalue="Python tests.pytest for test_minimax.test_generate_dumb_move4" />
+        <item itemvalue="Python tests.pytest for test_mcts.test_board_loser" />
+        <item itemvalue="Python tests.pytest for test_mcts.test_board_winner" />
+        <item itemvalue="Python tests.pytest for test_mcts.test_random_game_result" />
+        <item itemvalue="Python tests.pytest for test_mcts.test_random_game_result2" />
+        <item itemvalue="Python tests.pytest for test_mcts.test_random_game_result_loose" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +223,26 @@
       <workItem from="1638354307667" duration="25618000" />
       <workItem from="1638431347610" duration="3109000" />
       <workItem from="1638455899800" duration="956000" />
+      <workItem from="1638647969689" duration="2668000" />
+      <workItem from="1638781303289" duration="2047000" />
+      <workItem from="1640094212162" duration="1587000" />
+      <workItem from="1640169026174" duration="17331000" />
+      <workItem from="1640275575374" duration="266000" />
+      <workItem from="1640795834033" duration="11982000" />
+      <workItem from="1640901210052" duration="4104000" />
+      <workItem from="1641198304910" duration="6697000" />
+      <workItem from="1641222390051" duration="10962000" />
+      <workItem from="1641649027865" duration="2293000" />
+      <workItem from="1641652403815" duration="917000" />
+      <workItem from="1642096839105" duration="2879000" />
+      <workItem from="1642109814416" duration="3013000" />
+      <workItem from="1642338188354" duration="6063000" />
+      <workItem from="1642414748917" duration="25313000" />
+      <workItem from="1642456054122" duration="2455000" />
+      <workItem from="1642497715751" duration="2402000" />
+      <workItem from="1642500145101" duration="7858000" />
+      <workItem from="1642511417524" duration="206000" />
+      <workItem from="1643012043849" duration="47590000" />
     </task>
     <servers />
   </component>
@@ -208,73 +250,151 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635194716397">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="2112" y="-944" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1643127914455">
+      <screen x="1920" y="-976" width="2560" height="1440" />
     </state>
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1635194716397" />
+    <state x="2112" y="-944" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643127914455" />
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1634921202854" />
-    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1637057094335">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="2918" y="-453" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643128416979">
+      <screen x="1920" y="-976" width="2560" height="1440" />
     </state>
+    <state x="2918" y="-453" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643128416979" />
+    <state x="2762" y="-744" key="FileChooserDialogImpl" timestamp="1643127835623">
+      <screen x="1920" y="-976" width="2560" height="1440" />
+    </state>
+    <state x="2762" y="-744" key="FileChooserDialogImpl/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643127835623" />
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1637057094335" />
-    <state width="1237" height="102" key="GridCell.Tab.0.bottom" timestamp="1638456863178">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="2517" height="462" key="GridCell.Tab.0.bottom" timestamp="1643463573963">
+      <screen x="1920" y="-976" width="2560" height="1440" />
     </state>
-    <state width="1237" height="485" key="GridCell.Tab.0.bottom/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1638282079300" />
-    <state width="1237" height="322" key="GridCell.Tab.0.bottom/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1637570823537" />
-    <state width="1237" height="102" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1638456863178" />
-    <state width="1237" height="102" key="GridCell.Tab.0.center" timestamp="1638456863178">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="234" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1643215835523" />
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1642098418670" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697167" />
+    <state width="2517" height="2" key="GridCell.Tab.0.bottom/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1641303161724" />
+    <state width="1877" height="609" key="GridCell.Tab.0.bottom/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642432929079" />
+    <state width="1237" height="38" key="GridCell.Tab.0.bottom/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1642350096034" />
+    <state width="1237" height="562" key="GridCell.Tab.0.bottom/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1641653327842" />
+    <state width="2517" height="549" key="GridCell.Tab.0.bottom/0.0.1280.720/1283.-1440.2560.1440@1283.-1440.2560.1440" timestamp="1643051136380" />
+    <state width="1237" height="344" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.-976.2560.1440@0.0.1280.720" timestamp="1643110801421" />
+    <state width="2517" height="462" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643463573963" />
+    <state width="1237" height="28" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1643023340747" />
+    <state width="2517" height="462" key="GridCell.Tab.0.center" timestamp="1643463573963">
+      <screen x="1920" y="-976" width="2560" height="1440" />
     </state>
-    <state width="1237" height="485" key="GridCell.Tab.0.center/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1638282079300" />
-    <state width="1237" height="322" key="GridCell.Tab.0.center/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1637570823537" />
-    <state width="1237" height="102" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1638456863178" />
-    <state width="1237" height="102" key="GridCell.Tab.0.left" timestamp="1638456863178">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="234" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1643215835523" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1642098418670" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697167" />
+    <state width="2517" height="2" key="GridCell.Tab.0.center/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1641303161724" />
+    <state width="1877" height="609" key="GridCell.Tab.0.center/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642432929079" />
+    <state width="1237" height="38" key="GridCell.Tab.0.center/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1642350096034" />
+    <state width="1237" height="562" key="GridCell.Tab.0.center/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1641653327842" />
+    <state width="2517" height="549" key="GridCell.Tab.0.center/0.0.1280.720/1283.-1440.2560.1440@1283.-1440.2560.1440" timestamp="1643051136379" />
+    <state width="1237" height="344" key="GridCell.Tab.0.center/0.0.1280.720/1920.-976.2560.1440@0.0.1280.720" timestamp="1643110801421" />
+    <state width="2517" height="462" key="GridCell.Tab.0.center/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643463573963" />
+    <state width="1237" height="28" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1643023340747" />
+    <state width="2517" height="462" key="GridCell.Tab.0.left" timestamp="1643463573963">
+      <screen x="1920" y="-976" width="2560" height="1440" />
     </state>
-    <state width="1237" height="485" key="GridCell.Tab.0.left/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1638282079300" />
-    <state width="1237" height="322" key="GridCell.Tab.0.left/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1637570823536" />
-    <state width="1237" height="102" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1638456863178" />
-    <state width="1237" height="102" key="GridCell.Tab.0.right" timestamp="1638456863178">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="234" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1643215835523" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1642098418670" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697166" />
+    <state width="2517" height="2" key="GridCell.Tab.0.left/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1641303161724" />
+    <state width="1877" height="609" key="GridCell.Tab.0.left/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642432929079" />
+    <state width="1237" height="38" key="GridCell.Tab.0.left/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1642350096034" />
+    <state width="1237" height="562" key="GridCell.Tab.0.left/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1641653327842" />
+    <state width="2517" height="549" key="GridCell.Tab.0.left/0.0.1280.720/1283.-1440.2560.1440@1283.-1440.2560.1440" timestamp="1643051136379" />
+    <state width="1237" height="344" key="GridCell.Tab.0.left/0.0.1280.720/1920.-976.2560.1440@0.0.1280.720" timestamp="1643110801421" />
+    <state width="2517" height="462" key="GridCell.Tab.0.left/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643463573963" />
+    <state width="1237" height="28" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1643023340747" />
+    <state width="2517" height="462" key="GridCell.Tab.0.right" timestamp="1643463573963">
+      <screen x="1920" y="-976" width="2560" height="1440" />
     </state>
-    <state width="1237" height="485" key="GridCell.Tab.0.right/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1638282079300" />
-    <state width="1237" height="322" key="GridCell.Tab.0.right/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1637570823537" />
-    <state width="1237" height="102" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1638456863178" />
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1636920002140">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="234" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@-1920.0.1280.720" timestamp="1643215835523" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1642098418670" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697167" />
+    <state width="2517" height="2" key="GridCell.Tab.0.right/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1641303161724" />
+    <state width="1877" height="609" key="GridCell.Tab.0.right/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642432929079" />
+    <state width="1237" height="38" key="GridCell.Tab.0.right/0.0.1280.720/0.-1080.1920.1080@0.0.1280.720" timestamp="1642350096034" />
+    <state width="1237" height="562" key="GridCell.Tab.0.right/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1641653327842" />
+    <state width="2517" height="549" key="GridCell.Tab.0.right/0.0.1280.720/1283.-1440.2560.1440@1283.-1440.2560.1440" timestamp="1643051136379" />
+    <state width="1237" height="344" key="GridCell.Tab.0.right/0.0.1280.720/1920.-976.2560.1440@0.0.1280.720" timestamp="1643110801421" />
+    <state width="2517" height="462" key="GridCell.Tab.0.right/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643463573963" />
+    <state width="1237" height="28" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1643023340747" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1641423697168">
+      <screen x="-1920" y="906" width="1280" height="720" />
     </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697168" />
+    <state width="2517" height="507" key="GridCell.Tab.1.bottom/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640188011219" />
     <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
-    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1636920002140" />
-    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1636920002139">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1641249909780" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1641423697168">
+      <screen x="-1920" y="906" width="1280" height="720" />
     </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.center/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697168" />
+    <state width="2517" height="507" key="GridCell.Tab.1.center/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640188011219" />
     <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
-    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1636920002139" />
-    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1636920002139">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1641249909780" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1641423697168">
+      <screen x="-1920" y="906" width="1280" height="720" />
     </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.left/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697168" />
+    <state width="2517" height="507" key="GridCell.Tab.1.left/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640188011219" />
     <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
-    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1636920002139" />
-    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1636920002139">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1641249909780" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1641423697168">
+      <screen x="-1920" y="906" width="1280" height="720" />
     </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.right/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@-1920.906.1280.720" timestamp="1641423697168" />
+    <state width="2517" height="507" key="GridCell.Tab.1.right/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640188011219" />
     <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1636812517115" />
-    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1636920002139" />
-    <state x="142" y="3" key="SettingsEditor" timestamp="1635194772803">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1641249909780" />
+    <state x="903" y="385" key="Registry" timestamp="1640168997034">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="903" y="385" key="Registry/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640168997034" />
+    <state x="2204" y="-970" key="SettingsEditor" timestamp="1643128145970">
+      <screen x="1920" y="-976" width="2560" height="1440" />
+    </state>
+    <state x="284" y="6" key="SettingsEditor/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640168899096" />
     <state x="142" y="3" key="SettingsEditor/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1635194772803" />
-    <state x="141" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1638455921681">
+    <state x="142" y="3" key="SettingsEditor/0.0.1280.720/1920.-976.2560.1440@0.0.1280.720" timestamp="1643110763615" />
+    <state x="2204" y="-970" key="SettingsEditor/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643128145970" />
+    <state x="-10" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1643023324471" />
+    <state x="141" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1643012051429">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="212" y="300" key="com.intellij.ide.util.TipDialog/-1920.0.1280.720/0.0.1920.1080@0.0.1920.1080" timestamp="1642097252269" />
+    <state x="282" y="400" key="com.intellij.ide.util.TipDialog/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1641222395593" />
     <state x="141" y="200" key="com.intellij.ide.util.TipDialog/0.-1080.1920.1080/0.0.1280.720@0.0.1280.720" timestamp="1638278631353" />
-    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1637570580449" />
-    <state x="141" y="200" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1638455921681" />
+    <state x="141" y="200" key="com.intellij.ide.util.TipDialog/0.0.1280.720/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642414872381" />
+    <state x="337" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720/0.1080.1920.515@0.0.1280.720" timestamp="1641652408579" />
+    <state x="141" y="200" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1643012051429" />
     <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636286692842">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="450" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1636286692842" />
+    <state x="2896" y="-658" width="607" height="804" key="find.popup" timestamp="1643129752152">
+      <screen x="1920" y="-976" width="2560" height="1440" />
+    </state>
+    <state x="2896" y="-658" width="607" height="804" key="find.popup/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643129752152" />
+    <state x="2864" y="-650" width="1344" height="678" key="search.everywhere.popup" timestamp="1643408306001">
+      <screen x="1920" y="-976" width="2560" height="1440" />
+    </state>
+    <state x="943" y="325" width="672" height="678" key="search.everywhere.popup/-1920.906.1280.720/-1920.1986.1920.515/0.0.2560.1440@0.0.2560.1440" timestamp="1640168968457" />
+    <state x="2864" y="-650" width="1344" height="678" key="search.everywhere.popup/0.0.1280.720/1920.-976.2560.1440@1920.-976.2560.1440" timestamp="1643408306001" />
+    <state x="472" y="163" width="672" height="339" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1643012560109" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_vertical.coverage" NAME="pytest for test_minimax.test_new_vertical Coverage Results" MODIFIED="1636716882747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -282,10 +402,12 @@
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_TLBR_YX_true.coverage" NAME="pytest for test_common.test_diagonal_check_TLBR_YX_true Coverage Results" MODIFIED="1636288629948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_false.coverage" NAME="pytest for test_common.test_connected_four_false Coverage Results" MODIFIED="1636032935854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_5.coverage" NAME="pytest for test_minimax.test_heuristic_5 Coverage Results" MODIFIED="1638374120483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_test_random_game_result_loose.coverage" NAME="pytest for test_mcts.test_random_game_result_loose Coverage Results" MODIFIED="1643053678955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_empty_pretty_print_board.coverage" NAME="pytest for test_common.test_empty_pretty_print_board Coverage Results" MODIFIED="1636031208625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_generate_dumb_move3.coverage" NAME="pytest for test_minimax.test_generate_dumb_move3 Coverage Results" MODIFIED="1638367553079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_iterate_window_pos.coverage" NAME="pytest for test_minimax.test_iterate_window_pos Coverage Results" MODIFIED="1636714944318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_dumb_move.coverage" NAME="pytest for test_minimax.test_heuristic_dumb_move Coverage Results" MODIFIED="1638356180397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_test_random_game_result_win.coverage" NAME="pytest for test_mcts.test_random_game_result_win Coverage Results" MODIFIED="1643053672324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_true.coverage" NAME="pytest for test_common.test_connected_four_true Coverage Results" MODIFIED="1636287087380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_check_horizontal.coverage" NAME="pytest for test_minimax.test_check_horizontal Coverage Results" MODIFIED="1636369345814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_max_depth_1.coverage" NAME="pytest for test_minimax.test_max_depth_1 Coverage Results" MODIFIED="1638385452589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -309,6 +431,7 @@
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_max_5.coverage" NAME="pytest for test_minimax.test_max_5 Coverage Results" MODIFIED="1638378361011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_heuristic.coverage" NAME="pytest for test_minimax.test_new_heuristic Coverage Results" MODIFIED="1636724452045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_true.coverage" NAME="pytest for test_common.test_diagonal_check_true Coverage Results" MODIFIED="1636287386096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_test_board_loser.coverage" NAME="pytest for test_mcts.test_board_loser Coverage Results" MODIFIED="1643099680497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_generate_dumb_move1.coverage" NAME="pytest for test_minimax.test_generate_dumb_move1 Coverage Results" MODIFIED="1638365041171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_eval_window_none.coverage" NAME="pytest for test_minimax.test_eval_window_none Coverage Results" MODIFIED="1636714359749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_iterate_window_none.coverage" NAME="pytest for test_minimax.test_iterate_window_none Coverage Results" MODIFIED="1636714820947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -316,7 +439,7 @@
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BR_TL_false.coverage" NAME="pytest for test_common.test_connected_four_BR_TL_false Coverage Results" MODIFIED="1636288619979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_drop_piece.coverage" NAME="pytest for test_common.test_drop_piece Coverage Results" MODIFIED="1636738063114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_check_diagonal_neg.coverage" NAME="pytest for test_minimax.test_new_check_diagonal_neg Coverage Results" MODIFIED="1636724217845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Connect4$main.coverage" NAME="main Coverage Results" MODIFIED="1638455975252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Connect4$main.coverage" NAME="main Coverage Results" MODIFIED="1643463544642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_invaltid_piece_pretty_print_board.coverage" NAME="pytest for test_common.test_invaltid_piece_pretty_print_board Coverage Results" MODIFIED="1636031501157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_check_horizontal_2.coverage" NAME="pytest for test_minimax.test_check_horizontal_2 Coverage Results" MODIFIED="1636369430224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_generate_dumb_move_4.coverage" NAME="pytest for test_minimax.test_generate_dumb_move_4 Coverage Results" MODIFIED="1638383596136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -332,10 +455,12 @@
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_row_true.coverage" NAME="pytest for test_common.test_connected_four_row_true Coverage Results" MODIFIED="1636287102504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BL_TR_true.coverage" NAME="pytest for test_common.test_connected_four_BL_TR_true Coverage Results" MODIFIED="1636288554181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_new_heuristic_practical.coverage" NAME="pytest for test_minimax.test_new_heuristic_practical Coverage Results" MODIFIED="1636737614334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Connect4$timer.coverage" NAME="timer Coverage Results" MODIFIED="1638397970186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$timer.coverage" NAME="timer Coverage Results" MODIFIED="1638783358067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_2_test_random_game_result.coverage" NAME="pytest for test_mcts_2.test_random_game_result Coverage Results" MODIFIED="1642428937043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_BL_TR_true.coverage" NAME="pytest for test_common.test_BL_TR_true Coverage Results" MODIFIED="1636288648101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_string_to_board.coverage" NAME="pytest for test_common.test_string_to_board Coverage Results" MODIFIED="1636294201019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_generate_dumb_move4.coverage" NAME="pytest for test_minimax.test_generate_dumb_move4 Coverage Results" MODIFIED="1638385042994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_2_test_random_game_result_win.coverage" NAME="pytest for test_mcts_2.test_random_game_result_win Coverage Results" MODIFIED="1642428948625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_connected_four_BR_TL_true.coverage" NAME="pytest for test_common.test_connected_four_BR_TL_true Coverage Results" MODIFIED="1636288592097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_end_state_win.coverage" NAME="pytest for test_common.test_end_state_win Coverage Results" MODIFIED="1636289410914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_TLBR_YX_true.coverage" NAME="pytest for test_common.test_TLBR_YX_true Coverage Results" MODIFIED="1636288634585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
@@ -346,8 +471,12 @@
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_pretty_print_board.coverage" NAME="pytest for test_common.test_pretty_print_board Coverage Results" MODIFIED="1635688772466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_diagonal_check_TLBR_XY_true.coverage" NAME="pytest for test_common.test_diagonal_check_TLBR_XY_true Coverage Results" MODIFIED="1636288639086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$common.coverage" NAME="common Coverage Results" MODIFIED="1636305615991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/agents" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_2_test_backpropagate_loss.coverage" NAME="pytest for test_mcts_2.test_backpropagate_loss Coverage Results" MODIFIED="1642432922324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_test_random_game_result2.coverage" NAME="pytest for test_mcts.test_random_game_result2 Coverage Results" MODIFIED="1643053685222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_max_pruning.coverage" NAME="pytest for test_minimax.test_max_pruning Coverage Results" MODIFIED="1636748747415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_dumb_move2.coverage" NAME="pytest for test_minimax.test_heuristic_dumb_move2 Coverage Results" MODIFIED="1638356946063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_test_random_game_result.coverage" NAME="pytest for test_mcts.test_random_game_result Coverage Results" MODIFIED="1643053690955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_mcts_test_board_winner.coverage" NAME="pytest for test_mcts.test_board_winner Coverage Results" MODIFIED="1643099674832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_minimax_test_heuristic_player1_win.coverage" NAME="pytest for test_minimax.test_heuristic_player1_win Coverage Results" MODIFIED="1636747969150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_dimensions_print_board.coverage" NAME="pytest for test_common.test_dimensions_print_board Coverage Results" MODIFIED="1635691244762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Connect4$pytest_for_test_common_test_dimensions_pretty_print_board.coverage" NAME="pytest for test_common.test_dimensions_pretty_print_board Coverage Results" MODIFIED="1636031496028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />

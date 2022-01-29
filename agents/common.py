@@ -135,7 +135,6 @@ def apply_player_action(
                 temp_board[y, action] = player
                 return temp_board
     for y in reversed(range(board.shape[0])):
-
         if board[y, action] == NO_PLAYER:
             board[y, action] = player
             return board
